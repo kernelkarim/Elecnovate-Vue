@@ -9,7 +9,7 @@
           <br />
           <br />
         </h1>
-        <span>
+        <span class="development-excellence-hub-text04">
           <span>At the Core of Our Business is Development Excellence</span>
           <br />
           <span>Empowering Your Vision with Cutting-Edge Solutions</span>
@@ -99,7 +99,7 @@
       </div>
       <img
         alt="image"
-        src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtaW5pbWFsaXNtJTIwcGxhbnR8ZW58MHx8fHwxNjI2MTgyODMw&amp;ixlib=rb-1.2.1&amp;w=1200"
+        src="https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxncmFwaGljcyUyMGRlc2lnbnxlbnwwfHx8fDE3MDk0NzYzNDR8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
         class="development-excellence-hub-image"
       />
     </div>
@@ -111,11 +111,23 @@ export default {
   name: 'DevelopmentExcellenceHub',
   props: {},
   metaInfo: {
-    title: 'Development-Excellence-Hub - Elecnovate',
+    title:
+      'Development-Excellence-Hub -  Elevate Your Brand with Stunning Graphic Design | Graphic Design',
     meta: [
       {
+        name: 'description',
+        content:
+          'Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life.',
+      },
+      {
         property: 'og:title',
-        content: 'Development-Excellence-Hub - Elecnovate',
+        content:
+          'Development-Excellence-Hub -  Elevate Your Brand with Stunning Graphic Design | Graphic Design',
+      },
+      {
+        property: 'og:description',
+        content:
+          "Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨",
       },
     ],
   },
@@ -164,7 +176,10 @@ export default {
 }
 @media(max-width: 1600px) {
   .development-excellence-hub-text {
-    font-size: 3rem;
+    font-size: 2.25rem;
+  }
+  .development-excellence-hub-text04 {
+    font-size: 22px;
   }
   .development-excellence-hub-text10 {
     font-size: 20px;
@@ -196,6 +211,10 @@ export default {
   }
   .development-excellence-hub-button {
     align-self: flex-start;
+  }
+  .development-excellence-hub-image {
+    width: 50%;
+    height: 356px;
   }
 }
 @media(max-width: 991px) {
